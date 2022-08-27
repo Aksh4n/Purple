@@ -13,7 +13,7 @@ body {
   background-color: #ffffff;
   color: rgb(255, 255, 255);
   position: relative;
-  background: transparent;
+  background: url("../img/bg.jpg") top right no-repeat;
 
 
 }
@@ -21,8 +21,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #0000009f url("../img/bg.jpg") top right no-repeat;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.225);
 
   background-size: cover;
   left: 0;
@@ -39,7 +38,7 @@ body::before {
 }
 
 a {
-  color: #d218b9;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -364,8 +363,7 @@ section.section-show {
 }
 
 section .container {
-  text-align: center;
-  background: rgba(47, 12, 48, 0.9);
+  background: rgb(48, 12, 42);
   padding: 30px;
 }
 
@@ -1021,7 +1019,7 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #ffffff;
   padding: 20px;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
@@ -1029,7 +1027,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #ffffff;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1066,7 +1064,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #d46bd9;
 }
 
 .contact .php-email-form {
