@@ -4,4 +4,5 @@ from .models import *
 def home(request):
     honors = Honor.objects.all()
     projects = Project.objects.all()
-    return render(request, 'index.html' , {'honors':honors , 'projects':projects})
+    videos = Video.objects.all()
+    return render(request, 'index.html' , {'honors':honors , 'projects':projects , 'videos':videos})

@@ -13,7 +13,6 @@ body {
   background-color: #ffffff;
   color: rgb(255, 255, 255);
   position: relative;
-  background: url("../img/bg.c529aadcc176.jpg") top right no-repeat;
 
 
 }
@@ -368,7 +367,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgb(48, 12, 42);
+  background: rgb(36, 8, 32);
   padding: 30px;
 }
 
