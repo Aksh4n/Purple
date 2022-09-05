@@ -5,3 +5,6 @@ from .models import *
 admin.site.register(Honor)
 admin.site.register(Project)
 admin.site.register(Video)
+admin.site.register(Blok)
+admin.site.register(Foam)
+admin.site.register(Tirche)
