@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 
 <head>
   <meta charset="utf-8">
@@ -43,7 +43,7 @@
   <header id="header">
     
     <div class="container">
-      <a href="{% url 'home' %}" class="mr-auto"><img style="width: 500px;" src="{% static 'assets/img/logo2.png' %}" alt="" class="img-fluid"></a> 
+      <a href="{% url 'home' %}" class="mr-auto"><img style="width: 500px;" src="{% static 'assets/img/logo2.png' %}" alt="پدیده فوم" class="img-fluid"></a> 
       
 
 
@@ -70,13 +70,19 @@
 
         <a href="https://www.facebook.com/PadidehFoam-Co-100245776162734/" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/padidehfoam/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/padide-foam-05844324a/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/company/padideh-foam/" class="linkedin"><i class="bi bi-linkedin"></i></a>
         
         
       </div>
       <div class="social-links">
         <button style=" border-radius: 40px;background-color: rgba(108, 24, 100, 0.31);font-weight: bold;" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
           <i style="font-size:large ;" class="bi bi-whatsapp"></i> نیاز به راهنمایی دارید؟
+        </button>
+      </div>
+
+      <div class="social-links">
+        <button style=" border-radius: 40px;background-color: rgba(206, 250, 61, 0.234);font-weight: bold;" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal333">
+          <i style="font-size:large ;" class="bi bi-whatsapp"></i>امور مشتریان
         </button>
       </div>
       
@@ -104,7 +110,7 @@
       <div style="margin: auto;text-align: center;"  class="modal-body">
       <div   class="row">
         <a  href="https://wa.me/+989170001929"><button style="border-radius: 40px;color:white; margin: auto;text-align: center;background-color: rgba(70, 11, 64, 0.853);font-weight: bold;width: 80%;" type="button" class="btn " >
-          <i style="font-size:large ;" class="bi bi-whatsapp"></i> مدیریت فروش  <br><font style="color:rgb(255, 176, 254) ;"> سحر جانکی پور</font>     
+          <i style="font-size:large ;" class="bi bi-whatsapp"></i> مدیر فروش دفتر مرکزی <br><font style="color:rgb(255, 176, 254) ;"> سحر جانکی پور</font>     
         </button> </a>
         <hr>
         <a  href="https://wa.me/+989172500087"><button style="border-radius: 40px;color:white;margin: auto;text-align: center;background-color: rgba(70, 11, 64, 0.853);font-weight: bold;width: 80%;" type="button" class="btn " >
@@ -130,6 +136,39 @@
     </div>
   </div>
 </div>
+<div dir="rtl" style="color: rgb(88, 0, 88);" class="modal fade" id="exampleModal333" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div style="margin: auto;
+
+      text-align: center;"  class="modal-header">
+      <img style="width:150px ;" src="{% static 'assets/img/padide.png' %}" alt="">
+        
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+      </div>
+      <div style="margin: auto;text-align: center;"  class="modal-body">
+      <div   class="row">
+       "لطفا در صورت رضایت یا عدم رضایت نام و نشانی پروژه خود را ارسال نمایید تا در اسرع وقت نسبت به پیگیری اقدام گردد"
+       <hr>
+       <br>
+
+        <a  href="https://wa.me/+989120358767"><button style="border-radius: 40px;color:white; margin: auto;text-align: center;background-color: rgba(70, 11, 64, 0.853);font-weight: bold;width: 80%;width: 100%;" type="button" class="btn " >
+          <i style="font-size:large ;" class="bi bi-whatsapp"></i>   ارسال پیام <br><font style="color:rgb(255, 176, 254) ;"> </font>     
+        </button> </a>
+        <hr>
+
+      </div>
+
+     
+      </div>
+      <div class="modal-footer">
+        <button style="background-color: rgba(41, 10, 37, 0.955); width: 100%;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   
   <!-- ======= About Section ======= -->
   <section  dir="rtl" id="about" class="about ">
@@ -148,7 +187,7 @@
       <div style="margin: auto;
       padding: 10px;
       text-align: center;" class="col-lg-4" data-aos="fade-right">
-        <video controls src="https://padidehfoam.ir/wp-content/uploads/2022/05/a91f4ccab67be6f76fc2d4eaad65e4062209550-360p.mp4" autoplay muted loop id="myVideo">
+       <video controls src="https://sda1.pishtazmovie.ir/da1c4k3/5/32/324154482-544321026.mp4" autoplay muted loop id="myVideo">
         </video>
       </div>
       <style>
@@ -209,7 +248,7 @@
         <div class="col-md-2 p-3">
 
                   
-          <a href="{{honor.img.url}}"  class="portfolio-lightbox" ><img class="card-img-top mb-5 mb-md-0" src="{{honor.img.url}}" alt="..." /></a>
+          <a href="{{honor.img.url}}"  class="portfolio-lightbox" ><img class="card-img-top mb-5 mb-md-0" src="{{honor.img.url}}" alt="پدیده فوم" /></a>
 
       </div>
         {% endfor %}
@@ -287,7 +326,7 @@
         <div class="col-md-3 p-3">
 
                   
-          <a href="{{honor.img.url}}"  class="portfolio-lightbox" ><img class="card-img-top mb-5 mb-md-0" src="{{honor.img.url}}" alt="..." /></a>
+          <a href="{{honor.img.url}}"  class="portfolio-lightbox" ><img class="card-img-top mb-5 mb-md-0" src="{{honor.img.url}}" alt="پروژه پدیده فوم" /></a>
 
       </div>
         {% endfor %}
@@ -335,7 +374,7 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/new.jpg' %}" class="img-fluid" alt="">
+            <img src="{% static 'assets/img/new.jpg' %}" class="img-fluid" alt="بلوک سقفی">
             <div class="portfolio-info">
               <h4>بلوک سقفی</h4>
               <p>بلوک های سقفی استاندارد پدیده فوم با تراکم بالا و استفاده از بهترین متریال اولیه
@@ -343,8 +382,12 @@
               </p>
               <p></p>
               <div class="portfolio-links">
-                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2"  title=""><i class="bx bx-plus"></i>تصاویر</a>
-                <a href="{% static 'assets/img/pf.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" class="portfolio-details-lightbox" title="لیست قیمت"><i class="bx bx-link"></i>لیست قیمت</a>
+                  
+                <button style="background-color:rgba(166, 0, 255, 0.423) ;" class="btn">
+                <a style="font-size:large ;" href="" data-bs-toggle="modal" data-bs-target="#exampleModal2"  title=""><i class="bx bx-plus"></i>تصاویر</a>
+                </button>
+                <button style="background-color:rgba(166, 0, 255, 0.423) ;" class="btn">
+                <a style="font-size:large ;" href="{{price.price_foam}}" data-gallery="portfolioGallery" class="portfolio-lightbox" class="portfolio-details-lightbox" title="لیست قیمت فوم "><i class="bx bx-link"></i>لیست قیمت</a></button>
               </div>
             </div>
           </div>
@@ -352,7 +395,7 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/888.jpg' %}" class="img-fluid" alt="">
+            <img src="{% static 'assets/img/888.jpg' %}" class="img-fluid" alt="تیرچه بتنی">
             <div class="portfolio-info">
               <h4>تیرچه</h4>
               <p>تیرچه بتنی استاندارد را از ما بخواهید .. تیرچه ای مقاوم تولید شده توسط بهترین متریال اولیه و متخصصین حوزه ی عمران
@@ -360,8 +403,14 @@
               </p>
               <p></p>
               <div class="portfolio-links">
-                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal3"  title=""><i class="bx bx-plus"></i>تصاویر</a>
-                <a href="{% static 'assets/img/pt.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" class="portfolio-details-lightbox" title="لیست قیمت"><i class="bx bx-link"></i>لیست قیمت</a>
+                  <button style="background-color:rgba(166, 0, 255, 0.423) ;" class="btn">
+                <a style="font-size:large ;" href="" data-bs-toggle="modal" data-bs-target="#exampleModal3"  title=""><i class="bx bx-plus"></i>تصاویر</a> </button>
+                <button style="background-color:rgba(166, 0, 255, 0.423) ;" class="btn">
+                <a style="font-size:large ;" href="{{price.price_tirche}}" data-gallery="portfolioGallery" class="portfolio-lightbox" class="portfolio-details-lightbox" title=" لیست قیمت تیرچه"><i class="bx bx-link"></i>لیست قیمت</a></button>
+                <hr>
+                <button style="background-color:rgba(166, 0, 255, 0.423) ;" class="btn">
+                  <a style="font-size:large ;" href="{% static 'assets/img/pt.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" class="portfolio-details-lightbox" title=" مشخصات فنی  "><i class="bi bi-patch-check-fill"></i>  مشخصات فنی </a></button>
+  
               </div>
             </div>
           </div>
@@ -371,7 +420,7 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/111.jpg' %}" class="img-fluid" alt="">
+            <img src="{% static 'assets/img/111.jpg' %}" class="img-fluid" alt="بلوک دیواری">
             <div class="portfolio-info">
               <h4>بلوک دیواری</h4>
               <p>بلوک های دیواری سبک دانه فوم دار عایق مخصوص دیوارهای خارجی و دیوارهای بین واحد ها .. این بلوک‌ها حاوی مواد اولیه صنعتی فوق سبک و عایق می باشند
@@ -379,8 +428,10 @@
               </p>
               <p></p>
               <div class="portfolio-links">
-                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal4"  title=""><i class="bx bx-plus"></i>تصاویر</a>
-                <a href="{% static 'assets/img/pb.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" class="portfolio-details-lightbox" title="لیست قیمت"><i class="bx bx-link"></i>لیست قیمت</a>
+                  <button style="background-color:rgba(166, 0, 255, 0.423) ;" class="btn">
+                <a style="font-size:large ;" href="" data-bs-toggle="modal" data-bs-target="#exampleModal4"  title=""><i class="bx bx-plus"></i>تصاویر</a></button>
+                <button style="background-color:rgba(166, 0, 255, 0.423) ;" class="btn">
+                <a style="font-size:large ;" href="{{price.price_blok}}" data-gallery="portfolioGallery" class="portfolio-lightbox" class="portfolio-details-lightbox" title="لیست قیمت بلوک دیواری "><i class="bx bx-link"></i>لیست قیمت</a></button>
               </div>
             </div>
           </div>
@@ -434,7 +485,7 @@
             <div  class="social-links">
               <a href="https://www.facebook.com/PadidehFoam-Co-100245776162734/" class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="https://www.instagram.com/padidehfoam/" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/padide-foam-05844324a/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.linkedin.com/company/padideh-foam/" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -474,6 +525,7 @@
                 <i style="font-size:large ;" class="bi bi-whatsapp"></i>  برای ارتباط با بخش فروش  کلیک کنید
               </button>
               <hr>
+              
             
             </div>
           </div>
@@ -519,19 +571,22 @@
       <div style="margin: auto;
 
       text-align: center;"  class="modal-header">
-      <img style="width:150px ;" src="{% static 'assets/img/padide.png' %}" alt="">
+      <img style="width:150px ;" src="{% static 'assets/img/padide.png' %}" alt="لوگو پدیده فوم">
 
         
         <h5 class="modal-title" id="exampleModalLabel"></h5>
       </div>
       <div style="margin: auto;text-align: center;"  class="modal-body">
+          <button style="background-color: rgba(41, 10, 37, 0.955);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">بازگشت به صفحه محصولات</button>
       <div   class="row">
         {% for a in foams  %}
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="{{a.img.url}}" class="img-fluid" alt="">
+            <img src="{{a.img.url}}" class="img-fluid" alt="بلوک سقفی پلی اسایرن">
                       <div class="portfolio-links">
-            <a style="color: purple;" href="{{a.img.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i>مشاهده</a>
+                          <button class="btn">
+                          
+            <a style="color: purple;" href="{{a.img.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="تصاویر بلوک سقفی"><i class="bx bx-plus"></i>مشاهده</a> </button>
           </div>
 
           </div>
@@ -555,18 +610,20 @@
         <div style="margin: auto;
   
         text-align: center;"  class="modal-header">
-        <img style="width:150px ;" src="{% static 'assets/img/padide.png' %}" alt="">
+        <img style="width:150px ;" src="{% static 'assets/img/padide.png' %}" alt="لوگو پدیده فوم">
           
-          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <h5 class="modal-title" id="exampleModalLabel">  </h5>
         </div>
         <div style="margin: auto;text-align: center;"  class="modal-body">
+            <button style="background-color: rgba(41, 10, 37, 0.955);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">بازگشت به صفحه محصولات</button>
         <div   class="row">
           {% for a in tirches  %}
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="{{a.img.url}}" class="img-fluid" alt="">
+            <img src="{{a.img.url}}" class="img-fluid" alt="پدیده تیرچه ">
                       <div class="portfolio-links">
-            <a style="color: purple;" href="{{a.img.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i>مشاهده</a>
+                          <button class="btn">
+            <a style="color: purple;" href="{{a.img.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="تصاویر تیرچه"><i class="bx bx-plus"></i>مشاهده</a> </button>
           </div>
 
           </div>
@@ -590,18 +647,21 @@
         <div style="margin: auto;
   
         text-align: center;"  class="modal-header">
-        <img style="width:150px ;" src="{% static 'assets/img/padide.png' %}" alt="">
+        <img style="width:150px ;" src="{% static 'assets/img/padide.png' %}" alt="بلوک لیکا">
           
-          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <h5 class="modal-title" id="exampleModalLabel">  </h5>
+          
         </div>
         <div style="margin: auto;text-align: center;"  class="modal-body">
+            <button style="background-color: rgba(41, 10, 37, 0.955);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">بازگشت به صفحه محصولات</button>
         <div   class="row">
           {% for a in bloks  %}
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="{{a.img.url}}" class="img-fluid" alt="">
+            <img src="{{a.img.url}}" class="img-fluid" alt="بلوک لیکا">
                       <div class="portfolio-links">
-            <a style="color: purple;" href="{{a.img.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i>مشاهده</a>
+                          <button class="btn">
+            <a style="color: purple;" href="{{a.img.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="تصاویر پدیده وال"><i class="bx bx-plus"></i>مشاهده</a> </button>
           </div>
 
           </div>

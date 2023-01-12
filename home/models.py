@@ -93,3 +93,15 @@ class Tirche(models.Model):
         except:
             url = ''
         return url 
+
+
+class Price(models.Model):
+    price_foam = models.ImageField()
+    price_tirche = models.ImageField()
+    price_blok = models.ImageField()
+
+
+
+    def __str__(self):
+
+        return str(self.id)  

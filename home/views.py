@@ -8,4 +8,6 @@ def home(request):
     tirches = Tirche.objects.all()
     projects = Project.objects.all()
     videos = Video.objects.all()
-    return render(request, 'index.html' , {'honors':honors , 'projects':projects , 'videos':videos , 'bloks':bloks , 'foams':foams , 'tirches':tirches})
+    price = Price.objects.get(id=1)
+    return render(request, 'index.html' , {'honors':honors , 'price':price ,
+     'projects':projects , 'videos':videos , 'bloks':bloks , 'foams':foams , 'tirches':tirches})
